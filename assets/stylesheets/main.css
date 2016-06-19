@@ -74,20 +74,44 @@ table {
     padding-left: 20px;
     width: 100%;
 }
-#image1 {
-    background-image: url(/home/john/Desktop/Pre-Course/task3/assets/big_img.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
 .container1 #image1 {
     width: 100%;
 }
+.grid,
 .column {
-    display: inline-block;
-    padding-left: 50px;
-    padding-right: 30px;
-     width: 33.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+}
+.column {
+  width: 33.33%;
+}
+
+/*
+  ========================================
+  Main Image
+  ========================================
+*/
+
+.main-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#main-text {
+    font-size: 30px;
+}
+.image1-text {
+    padding-left: 15px;
+    width: 30%;
+}
+.image1-text,
+.small {
+    font-size: 15px;
 }
 
 /*
@@ -110,6 +134,15 @@ table {
 
 /*
   ========================================
+  Logos
+  ========================================
+*/
+.logo {
+    padding: 66px 0 44px 30px;
+}
+
+/*
+  ========================================
   Section1
   ========================================
 */
@@ -120,7 +153,6 @@ table {
 }
 .section1 .right {
     float: right;
-    width: auto;
 }
 .section2 {
     clear: both;
@@ -133,9 +165,11 @@ table {
 */
 .section2 .left {
     float: left;
+    margin: 0 auto;
 }
 .section2 .right {
     float: right;
+    width: 50%;
 }
 .section3 {
     clear: both;
@@ -164,26 +198,18 @@ table {
   Header
   ===================================
 */
-
-.gnome {
-    line-height: 150%;
-    font-size: 50px;
-    padding-left: 25px;
-    padding-top: 25px;
-}
-header,
-.primary-header {
+header {
+    background: #333333;
     color: #ffcc00;
-    font-size: 25px;
-    font-weight: bold;
-    padding-bottom: 25px;
-    margin-top: 0;
-    margin-bottom: 25px;
-    background-color: black;
-   
+    padding: 20px 0 10px 0;   
 }
 header p {
+    padding-right: 15px;
     text-align: right;
+}
+.gnome {
+    font-size:60px;
+    font-weight: bold;
 }
 /* 
   ====================================
@@ -192,6 +218,7 @@ header p {
 */
 footer,
 .primary-footer {
+    background: #333333;
     color: #ffcc00;
     font-size: 25px;
     font-weight: bold;
@@ -199,7 +226,6 @@ footer,
     padding-bottom: 50px;
     margin-top: 0;
     margin-bottom: 25px;
-    background-color: black;
     text-align: center;
 }
     
@@ -224,12 +250,11 @@ h3 {
     font-size: 25px;
 }
 p {
-    font-size: 18px;
+    font-size: 18px;   
 }
-.quote {
-    font-size: 30px;
+.coloring {
+    color: #737373;
 }
 section {
     background: white;
 }
-
