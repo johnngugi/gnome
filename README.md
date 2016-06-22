@@ -1,6 +1,6 @@
 # gnome
 
-[gnome website](wrestler-dawn-75344.bitballoon.com "Gnome Website")
+[gnome website](http://wrestler-dawn-75344.bitballoon.com/ "Gnome Website")
 
 **Repo Link**
 https://github.com/johnngugi/gnome
